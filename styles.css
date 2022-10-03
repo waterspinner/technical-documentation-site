@@ -1,0 +1,103 @@
+body {
+    line-height:1.5;
+    background-color: black;
+    font-family: Arimo, sans-serif; 
+  }
+  header {
+    color: white;
+    margin: 10px;
+    text-align: center;
+    font-size: 1.8em;
+    font-weight: thin;
+  }
+  
+  #main-doc {
+    position: relative;
+    margin-left: 310px;
+  
+  }
+  
+  #main-doc header {
+    text-align: left;
+  }
+  
+  #navbar ul {
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 0;
+    height: 80%;
+  }
+  
+  #navbar li {
+    position: relative;
+    border-top: 1.2px solid;
+    list-style: none;
+    border-color: white;
+  }
+  
+  #navbar a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    padding: 12px 28px
+  }
+  
+  #navbar {
+    position: fixed;
+    min-width: 290px;
+    top: 0px;
+    left: 0px;
+    width: 300px;
+    height: 100%;
+    border-right: solid;
+    border-color: white;
+  }
+  
+  code {
+    display: block;
+    text-align: left;
+    white-space: pre-line;
+    position: relative;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 2;
+    color: black;
+    background-color: #f7f7f7;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+  }
+  
+  section article {
+    color: #fff;
+    margin: 15px;
+    font-size: 0.96em;
+  }
+  
+  section li {
+    margin: 15px 0px 0px 20px;
+  }
+  
+  @media (max-width: 815px) {
+    #navbar ul {
+      border: 1px solid;
+      height: 207px;
+    }
+    #navbar {
+      background-color: black;
+      position: absolute;
+      top: 0;
+      padding: 0;
+      margin: 0;
+      width: 100%;
+      max-height: 275px;
+      border: none;
+      z-index: 1;
+      border-bottom: 2px solid;
+    }
+    #main-doc {
+      position: relative;
+      margin-left: 0px;
+      margin-top: 270px;
+  }
